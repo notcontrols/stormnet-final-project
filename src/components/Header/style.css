@@ -1,0 +1,23 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.mainLogo {
+  font-family: FuturaPT;
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 1.11;
+  color: #1c1c1c;
+  margin-right: 165px;
+}
+
+.navigation > a {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 2.31;
+  letter-spacing: 0.65px;
+  margin-right: 25px;
+  color: #333333;
+  text-decoration: none;
+}
