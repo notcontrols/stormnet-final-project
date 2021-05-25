@@ -1,13 +1,28 @@
+@font-face {
+  font-family: 'FuturaPT';
+  src: local("FuturaPT"), url(../../fonts/FuturaPT-Bold.woff) format("woff");
+}
+.container{
+  max-width: 1920px;
+  margin: 0 auto;
+}
 .navigation {
   display: flex;
   justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans';
+}
+
+.logo {
+  width:64px;
+  height: 30px;
+  margin: 0 20px;
 }
 
 .mainLogo {
-  font-family: FuturaPT;
+  font-family: 'FuturaPT';
   font-size: 27px;
-  font-weight: bold;
-  line-height: 1.11;
+  font-weight: 700;
   color: #1c1c1c;
   margin-right: 165px;
 }
@@ -17,7 +32,8 @@
   font-weight: 600;
   line-height: 2.31;
   letter-spacing: 0.65px;
-  margin-right: 25px;
+  padding: 20px;
   color: #333333;
   text-decoration: none;
 }
+

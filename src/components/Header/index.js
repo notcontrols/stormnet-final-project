@@ -10,12 +10,16 @@ import Blog from '../Blog';
 import Portfolio from '../Portfolio';
 
 import './style.css';
+import logo from './img/Logo.png';
+import search from './img/search_icon.png';
 
 class Header extends React.Component {
   render() {
     return (
       <Router>
+        <div className='container'>
         <nav className='navigation'>
+          <img src={logo} alt={'logo'} className='logo' />
           <div className='mainLogo'>THEFOX BUSINESS</div>
           <Link to='/'>HOME</Link>
           <Link to='/demos'>DEMOS</Link>
@@ -24,7 +28,9 @@ class Header extends React.Component {
           <Link to='/shop'>SHOP</Link>
           <Link to='/blog'>BLOG</Link>
           <Link to='/portfolio'>PORTFOLIO</Link>
+          <Link><img src={search}></img></Link>
         </nav>
+        </div>
         <Switch>
           <Route path='/' exact component={HomePage} />
           <Route path='/demos' exact component={Demos} />
