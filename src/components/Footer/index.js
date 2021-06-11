@@ -10,7 +10,7 @@ class Footer extends React.Component {
     return (
       <footer>
         <div className='copyright'>
-          © 2015 All Rights Reserved Tranmautritam - Envato Pty Ltd. Contact the
+          © 2015 All Rights Reserved <span className='tranmautritam'>Tranmautritam</span> - Envato Pty Ltd. Contact the
           Envato Market Help Team.
         </div>
         <div className='social'>

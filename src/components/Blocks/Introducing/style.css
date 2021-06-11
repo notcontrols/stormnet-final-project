@@ -1,0 +1,60 @@
+.introducing {
+  background-image: url(./img/background_image1.png);
+  padding: 229px 0 211px 375px;
+  position: relative;
+}
+
+.introducingContent {
+  max-width: 560px;
+}
+
+.introducingText {
+  margin: 5px 0 30px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #575757;
+}
+
+.button {
+  display: inline-block;
+  padding: 20px 80px;
+  background-color: #4285f4;
+  border: 1px solid #2c6cd6;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.button:before {
+  content: url(./img/button_light.png);
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  padding-right: 9px;
+}
+
+.gradientLine {
+  width: 100px;
+  height: 1px;
+  background-color: #000000;
+  background-image: linear-gradient(90deg, #00f0ff -25%, #ebacfd 125%);
+  margin: 28px 0 15px;
+  display: inline-block;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #ffffff;
+  position: absolute;
+  left: 940px;
+  bottom: 0;
+}

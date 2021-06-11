@@ -1,0 +1,113 @@
+.services {
+  display: flex;
+  font-family: 'Open Sans';
+}
+.leftBlock {
+  padding: 100px 100px 111px 100px;
+  background-color: #1f252f;
+  max-width: 565px;
+}
+
+.serviceHeader {
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.serviceSubHeader {
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #b9b9b9;
+}
+
+.serviceText {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #cccccc;
+  margin-bottom: 37px;
+}
+
+.serviceText ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+.serviceText li {
+  list-style-type: none;
+}
+
+.serviceText svg {
+  margin-right: 10px;
+}
+
+.rightBlock {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  border: 0;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'webDesign ecommerce videoAdvertising'
+    'photography graphicDesign supportTools';
+}
+
+.videoAdvertising {
+  grid-area: videoAdvertising;
+}
+
+.ecommerce {
+  grid-area: ecommerce;
+}
+
+.webDesign {
+  grid-area: webDesign;
+}
+
+.photography {
+  grid-area: photography;
+}
+
+.graphicDesign {
+  grid-area: graphicDesign;
+}
+
+.supportTools {
+  grid-area: supportTools;
+}
+.serviceCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 80px 65px;
+  border: 1px solid #f1f0f0;
+}
+
+.serviceCardHeader {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #333333;
+  margin: 55px 0 0;
+}
+
+.serviceCard > p {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #575757;
+  text-align: center;
+}
+
+.serviceCard > a {
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #4285f4;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 700;
+}

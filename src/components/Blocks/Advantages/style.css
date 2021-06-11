@@ -1,0 +1,47 @@
+.advantages {
+  display: flex;
+  justify-content: center;
+  margin: 90px 0 100px 0;
+}
+
+.card {
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card > p {
+  color: #575757;
+  margin: 0;
+}
+.card > h4 {
+  margin: 40px 0 20px;
+      font-size: 18px;
+      font-weight: 600;
+      color: #333333;
+}
+.imageContainer:hover {
+  background-color: #4285f4;
+}
+
+.imageContainer {
+  width: 150px;
+  height: 150px;
+  background-color: #69d2e7;
+  background-image: linear-gradient(48deg, #00f0ff -22%, #ebacfd 122%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
