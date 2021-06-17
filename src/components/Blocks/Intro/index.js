@@ -4,11 +4,14 @@ import './style.css';
 
 import ButtonTake from '../../Buttons/Take-a-tour';
 
+import Laptop from './img/laptop.png';
+
 class Intro extends React.Component {
   render() {
     return (
-      <div className='introducing'>
-        <div className='introducingContent'>
+      <div className='intro'>
+        <img className='introImage' src={Laptop} />
+        <div className='introContent'>
           <div className='title'>Great Theme for Your Business</div>
           <div className='gradientLine'></div>
           <div className='subTitle'>
@@ -23,7 +26,6 @@ class Intro extends React.Component {
           </div>
           <ButtonTake />
         </div>
-        <div className='triangle'></div>
       </div>
     );
   }

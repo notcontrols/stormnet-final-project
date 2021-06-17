@@ -3,11 +3,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 0 0;
+  padding: 100px 368px 800px;
 }
 
 .gridContainerPartners {
   display: grid;
+  width: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 85px 85px;
   gap: 0px 0px;
@@ -15,11 +16,10 @@
   grid-template-areas:
     'partner1 partner2 partner3 partner4'
     'partner5 partner6 partner7 partner8';
-  margin: 80px 0 0;
-  padding: 0 0 800px;
+  margin: 75px 0 0;
   justify-items: center;
   align-items: center;
-}
+}  
 
 .partner1 {
   grid-area: partner1;

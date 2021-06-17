@@ -3,7 +3,6 @@
   padding: 75px 0;
   background-color: #82b440;
   text-align: center;
-  font-family: 'Open Sans';
   font-size: 30px;
   line-height: 36px;
   font-weight: 300;
@@ -25,4 +24,10 @@
   font-weight: 700;
   color: #ffffff;
   text-decoration: none;
+  transition: all 0.2s linear;
+}
+.buttonCallToAction:hover {
+  color: #ffffff;
+  background: #4285f4;
+  border-color: #4285f4;
 }

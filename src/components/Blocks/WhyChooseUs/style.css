@@ -1,0 +1,158 @@
+.chooseSkill {
+  display: flex;
+}
+
+.choose_container {
+  width: 63%;
+  padding: 100px;
+}
+.skills_container {
+  width: 37%;
+  padding: 100px;
+  background-color: #1f252f;
+}
+
+.choose_title {
+  padding: 0 15px;
+}
+.choose_row {
+  display: flex;
+  margin: 63px 0 0;
+}
+
+.wc_wrapper {
+  padding: 0 15px 60px;
+}
+
+.wc_img {
+  height: auto;
+  max-width: 100%;
+}
+
+.wc_heading {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.wc_text {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #575757;
+}
+
+.wc_more {
+  padding: 0 15px;
+}
+
+.wc_more svg {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.wc_more a {
+  color: #4285f4;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.skills_title {
+  color: #ffffff;
+}
+.skills_subTitle {
+  color: #b9b9b9;
+}
+
+.skills_text {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.progress {
+  line-height: 30px;
+  font-weight: 400;
+  position: relative;
+  overflow: hidden;
+  margin: 5px 0 38px 0;
+  width: auto;
+}
+
+.progress progress {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  left: -777px;
+}
+.progress_title {
+  font-size: 18px;
+  color: #ffffff;
+}
+.progress_bar {
+  overflow: hidden;
+  background: linear-gradient(to right, #00f0ff, #ebacfd);
+  width: 80%;
+  height: 6px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.progress_value {
+  font-size: 14px;
+  color: #999999;
+  left: 80%;
+  position: absolute;
+  top: 9px;
+  margin-left: -5px;
+  width: 10px;
+  height: 10px;
+  opacity: 0;
+  transition: all linear 0.2s;
+}
+
+.progress:hover .progress_value {
+  opacity: 1;
+}
+
+.progress_bg {
+  background: #131313;
+  position: relative;
+  height: 10px;
+  overflow: hidden;
+  margin: 15px 0 0;
+}
+
+.button_skills {
+  display: inline-block;
+  padding: 20px 65px;
+  background-color: #4285f4;
+  border: 1px solid #2c6cd6;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 30px 0 0;
+  transition: all 0.2s linear;
+}
+
+.button_skills:before {
+  content: url(./img/button/meet.png);
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  padding-right: 9px;
+}
+
+.button_skills:hover {
+  color: #ffffff;
+  background: #82b440;
+  border: 1px solid #668d33;
+}
