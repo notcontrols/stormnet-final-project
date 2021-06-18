@@ -8,3 +8,55 @@
   text-align: center;
   margin: 0 auto 70px;
 }
+
+.contact_form-title .title {
+  color: #ffffff;
+}
+
+.contact_form-wrapper {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.home_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home_form-control {
+  margin: 0 0 20px;
+  border: 1px solid #444957;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #999999;
+  padding: 20px 30px;
+  background: rgba(255, 255, 255, 0.01);
+  width: 100%;
+}
+.home_form-submit {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #4285f4;
+  border: 1px solid #2c6cd6;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  padding: 30px 0;
+  width: 100%;
+  transition: all 0.2s linear;
+}
+
+.home_form-submit:hover {
+  background: #81d742;
+  border: 1px solid #60a032;
+  color: #ffffff;
+}
+.prompt_form {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  color: #666666;
+  margin: 50px 0 0;
+}

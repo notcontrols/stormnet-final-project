@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
+@font-face {
+  font-family: 'FuturaPT';
+  src: local("FuturaPT"), url(../../fonts/FuturaPT-Bold.woff) format("woff");
+}
+
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+  box-sizing: border-box;
 }
 
 .container {
