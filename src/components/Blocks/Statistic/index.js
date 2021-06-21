@@ -2,41 +2,35 @@ import React from 'react';
 
 import './style.css';
 
+import StatisticCell from './StatisticCell';
+
 class Statistic extends React.Component {
   render() {
     return (
       <div className='statistics'>
-      <div className='support'>
-        <div className='statisticNumber'>966</div>
-        <div className='smallGradientLine'></div>
-        <div className='statisticDesc'>Support Ticket Solved</div>
+        <div className='support'>
+          <StatisticCell
+            color='#9ce08d'
+            number='966'
+            desc='Support Ticket Solved'
+          />
+        </div>
+        <div className='purchases'>
+          <StatisticCell color='#81b0ff' number='20K' desc='Purchases' />
+        </div>
+        <div className='cups'>
+          <StatisticCell color='#f47272' number='1832' desc='Cafe Cups' />
+        </div>
+        <div className='likes'>
+          <StatisticCell color='#aae980' number='1.2M' desc='Facebook Likes' />
+        </div>
+        <div className='tweets'>
+          <StatisticCell color='#9f7bfb' number='10K' desc='Tweets' />
+        </div>
+        <div className='comments'>
+          <StatisticCell color='#fbb439' number='+18K' desc='Comments' />
+        </div>
       </div>
-      <div className='curchases'>
-        <div className='statisticNumber'>20K</div>
-        <div className='smallGradientLine'></div>
-        <div className='statisticDesc'>Purchases</div>
-      </div>
-      <div className='cups'>
-        <div className='statisticNumber'>1832</div>
-        <div className='smallGradientLine'></div>
-        <div className='statisticDesc'>Cafe Cups</div>
-      </div>
-      <div className='likes'>
-        <div className='statisticNumber'>1.2M</div>
-        <div className='smallGradientLine'></div>
-        <div className='statisticDesc'>Facebook Likes</div>
-      </div>
-      <div className='tweets'>
-        <div className='statisticNumber'>10K</div>
-        <div className='smallGradientLine'></div>
-        <div className='statisticDesc'>Tweets</div>
-      </div>
-      <div className='comments'>
-        <div className='statisticNumber'>+18K</div>
-        <div className='smallGradientLine'></div>
-        <div className='statisticDesc'>Comments</div>
-      </div>
-    </div>
     );
   }
 }

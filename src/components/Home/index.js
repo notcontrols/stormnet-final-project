@@ -19,7 +19,6 @@ import OurBlog from '../Blocks/Blog';
 import ContactFrom from '../Blocks/ContactForm';
 import Slider from '../Slider';
 import BigSlider from '../BigSlider';
-import AppHeaderHome from '../AppHeaderHome';
 
 class HomePage extends React.Component {
   render() {
