@@ -2,10 +2,16 @@
   padding: 100px 0;
 }
 
+.homeTitle {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 530px;
+}
+
 .portfolioGridContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: repeat(2, 420px);
   gap: 0px 0px;
   grid-template-areas:
     'portfolioImage1 portfolioImage3 portfolioImage4 portfolioImage6'
@@ -15,50 +21,50 @@
 
 .portfolioImage1 {
   grid-area: portfolioImage1;
-  width: 480px;
-  height: 420px;
-  background-color: #cad4e1;
+  background-image: url(./Images/cup.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .portfolioImage2 {
   grid-area: portfolioImage2;
-  width: 480px;
-  height: 420px;
-  background-color: #f0f2f5;
+  background-image: url(./Images/monoblock.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .portfolioImage3 {
   grid-area: portfolioImage3;
-  width: 480px;
-  height: 840px;
-  background-color: #dfe1e5;
+  background-image: url(./Images/mersedes_amg.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .portfolioImage4 {
   grid-area: portfolioImage4;
-  width: 480px;
-  height: 420px;
   opacity: 0.9;
-  background-color: #202123;
+  background-image: url(./Images/smartphones.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .portfolioImage5 {
   grid-area: portfolioImage5;
-  width: 480px;
-  height: 420px;
-  background-color: #f0f6fd;
+  background-image: url(./Images/notebook.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .portfolioImage6 {
   grid-area: portfolioImage6;
-  width: 480px;
-  height: 420px;
-  background-color: #ebeef2;
+  background-image: url(./Images/portfel.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .portfolioImage7 {
   grid-area: portfolioImage7;
-  width: 480px;
-  height: 420px;
-  background-color: #cad4e1;
+  background-image: url(./Images/pen.jpg);
+  background-position: center;
+  background-size: cover;
 }

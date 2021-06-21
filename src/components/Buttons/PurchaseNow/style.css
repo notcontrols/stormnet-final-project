@@ -1,0 +1,12 @@
+.button-transparent {
+  padding: 22px 43px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+
+  background-color: rgba(66, 133, 244, 0);
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+}

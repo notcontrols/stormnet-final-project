@@ -2,6 +2,8 @@ import React from 'react';
 
 import './style.css';
 
+import AppHeaderHome from '../../AppHeaderHome';
+
 import Work from './img/us-work.jpg';
 import Office from './img/office-workers.jpg';
 
@@ -14,13 +16,9 @@ class  Choose extends React.Component {
       <div className='chooseSkill'>
         <div className='choose_container'>
           <div className='choose_title'>
-            <div className='title'>Why Choose TheFox Business</div>
-            <div className='gradientLine'></div>
-            <div className='subTitle'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            <AppHeaderHome title='Why Choose TheFox Business' subTitle='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco.
-            </div>
+              enim ad minim veniam, quis nostrud exercitation ullamco.' />
           </div>
           <div className='choose_row'>
             <div className='wc_wrapper'>

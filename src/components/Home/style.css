@@ -44,26 +44,6 @@ body * {
   display: inline-block;
 }
 
-.homeTitle {
-  margin: 0 auto;
-  text-align: center;
-  max-width: 530px;
-}
 
-.intro {
-  background-color: #f6f7f8;
-  padding: 100px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  overflow: hidden;
-}
 
-.introImage {
-  max-width: 969px;
-  margin-left: -300px;
-}
 
-.introContent {
-  max-width: 560px;
-}

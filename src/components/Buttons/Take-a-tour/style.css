@@ -9,6 +9,7 @@
   font-size: 14px;
   font-weight: 700;
   color: #ffffff;
+  transition: all 0.2s linear;
 }
 
 .button:before {
@@ -17,4 +18,9 @@
   vertical-align: middle;
   line-height: 1;
   padding-right: 9px;
+}
+
+.button:hover {
+  background: #82b440;
+  border: 1px solid #87bb43;
 }

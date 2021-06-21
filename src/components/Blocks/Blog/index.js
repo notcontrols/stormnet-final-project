@@ -2,6 +2,8 @@ import React from 'react';
 
 import './style.css';
 
+import AppHeaderHome from '../../AppHeaderHome';
+
 import Table from './img/table.jpg';
 import Laptop from './img/laptop.jpg';
 import Office from './img/office.jpg';
@@ -14,12 +16,11 @@ class OurBlog extends React.Component {
     return (
       <div className='ourBlog'>
         <div className='ourBlog_title'>
-          <div className='title'>Lastest From Our Blog</div>
-          <div className='gradientLine'></div>
-          <div className='subTitle'>
-            Curabitur ac lacus arcu. Sed vehicula varius lectus auctor viverra.
-            Nulla vehicula nibh vel ante commodo feugiat.
-          </div>
+          <AppHeaderHome
+            title='Lastest From Our Blog'
+            subTitle='Curabitur ac lacus arcu. Sed vehicula varius lectus auctor viverra.
+            Nulla vehicula nibh vel ante commodo feugiat.'
+          />
         </div>
         <div className='articles_container'>
           <div className='article1 article'>
@@ -71,10 +72,10 @@ class OurBlog extends React.Component {
           </div>
         </div>
         <div class='article_more'>
-            <a href='#' title='more'>
-              <FontAwesomeIcon icon={faBell} /> Check All Latest Articles
-            </a>
-          </div>
+          <a href='#' title='more'>
+            <FontAwesomeIcon icon={faBell} /> Check All Latest Articles
+          </a>
+        </div>
       </div>
     );
   }
