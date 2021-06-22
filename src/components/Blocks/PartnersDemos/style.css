@@ -1,0 +1,49 @@
+.demos_partners {
+  background-color: #373c46;
+  align-items: center;
+}
+
+.containerPartners {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 180px;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    'partner1 partner2 partner3 partner4 partner5 partner6 partner7 partner8';
+  justify-items: center;
+  align-items: center;
+}  
+
+.partner1 {
+  grid-area: partner1;
+}
+
+.partner2 {
+  grid-area: partner2;
+}
+
+.partner3 {
+  grid-area: partner3;
+}
+
+.partner4 {
+  grid-area: partner4;
+}
+
+.partner5 {
+  grid-area: partner5;
+}
+
+.partner6 {
+  grid-area: partner6;
+}
+
+.partner7 {
+  grid-area: partner7;
+}
+
+.partner8 {
+  grid-area: partner8;
+}

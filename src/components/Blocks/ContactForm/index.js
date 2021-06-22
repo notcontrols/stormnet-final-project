@@ -21,51 +21,41 @@ class ContactFrom extends React.Component {
             action='/'
             method='post'
             className='home_form'
-            novalidate='novalidate'
           >
             <input
               type='text'
               name='your-name'
-              value=''
               className='home_form-control home_form-text'
-              aria-required='true'
-              aria-invalid='false'
+              required
               placeholder='Name'
             />
 
             <input
               type='email'
               name='your-email'
-              value=''
               className='home_form-control home_form-text home_form-email'
-              aria-required='true'
-              aria-invalid='false'
+              required
               placeholder='Email'
             />
 
             <input
               type='tel'
               name='your-tel'
-              value=''
               className='home_form-control home_form-text home_form-tel'
-              aria-required='true'
-              aria-invalid='false'
+              required
               placeholder='Phone'
             />
               <input
                 type='text'
                 name='your-subject'
-                value=''
                 className='home_form-control wpcf7-text'
-                aria-required='true'
-                aria-invalid='false'
+                required
                 placeholder='Company Name'
               />
             <select
               name='menu'
               className='home_form-control home_form-select'
-              aria-required='true'
-              aria-invalid='false'
+              required
             >
               <option value='Your Budget'>Your Budget</option>
               <option value='100$'>100$</option>

@@ -1,0 +1,40 @@
+.introducing {
+  background-image: url(./img/background.png);
+  padding: 139px 0 115px 975px;
+  position: relative;
+}
+
+.introducing_content {
+  max-width: 560px;
+}
+
+.introducing_text {
+  margin: 5px 0 30px;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #575757;
+}
+
+.gradientLine {
+  width: 100px;
+  height: 1px;
+  background-color: #000000;
+  background-image: linear-gradient(90deg, #00f0ff -25%, #ebacfd 125%);
+  margin: 28px 0 15px;
+  display: inline-block;
+}
+
+.introducing_text ul {
+  color: #333333;
+
+  margin-left: 0;
+  padding-left: 0;
+}
+.introducing_text li {
+  list-style-type: none;
+}
+
+.introducing_text svg {
+  margin-right: 10px;
+}

@@ -5,7 +5,7 @@ import './style.css';
 import ButtonTake from '../../Buttons/Take-a-tour';
 import AppHeaderHome from '../../AppHeaderHome';
 
-class Intro extends React.Component {
+class Introducing extends React.Component {
   render() {
     return (
       <div className='introducing'>
@@ -29,4 +29,4 @@ class Intro extends React.Component {
   }
 }
 
-export default Intro;
+export default Introducing;
