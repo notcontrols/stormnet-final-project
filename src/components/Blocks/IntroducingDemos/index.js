@@ -2,17 +2,20 @@ import React from 'react';
 
 import './style.css';
 
-import AppHeaderHome from '../../AppHeaderHome';
+import AppTitleHome from '../../AppTitleHome';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
+import Background from './img/background2.png';
+
 class Introducing extends React.Component {
   render() {
     return (
-      <div className='introducing'>
+      <div className='introducing_demos'>
+        <img src={Background} alt='' />
         <div className='introducing_content'>
-          <AppHeaderHome
+          <AppTitleHome
             title='Great Theme for Your Business'
             subTitle='Curabitur ac lacus arcu. Sed vehicula varius lectus auctor viverra.
             Nulla vehicula nibh vel ante commodo feugiat.'

@@ -47,3 +47,12 @@
 .partner8 {
   grid-area: partner8;
 }
+
+.partner {
+  opacity: 0.15;
+  transition: all linear 0.2s;
+}
+
+.partner:hover {
+  opacity: 1;
+}

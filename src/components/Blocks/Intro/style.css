@@ -3,15 +3,16 @@
   padding: 100px 0;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   overflow: hidden;
 }
 
 .introImage {
   max-width: 969px;
-  margin-left: -300px;
+  margin-left: -500px;
 }
 
 .introContent {
   max-width: 560px;
+  margin-left: 130px;
 }

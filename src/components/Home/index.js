@@ -10,11 +10,13 @@ import CallToAction from '../Blocks/CallToAction';
 import FeaturesHome from '../Blocks/FeaturesHome';
 import Intro from '../Blocks/Intro';
 import Statistic from '../Blocks/Statistic';
-import Services from '../Blocks/Services';
+import WhatWeDo from '../Blocks/Services/WhatWeDo';
+import BestServices from '../Blocks/Services/BestServices';
 import Partners from '../Blocks/Partners';
 import Pricing from '../Blocks/Pricing';
 import VideoBusiness from '../Blocks/VideoBusiness';
-import Choose from '../Blocks/WhyChooseUs';
+import ChooseContent from '../Blocks/WhyChooseUs/ChooseContent';
+import SkillsContent from '../Blocks/WhyChooseUs/SkillsContent';
 import OurBlog from '../Blocks/Blog';
 import ContactFrom from '../Blocks/ContactForm';
 import Slider from '../Slider';
@@ -28,21 +30,27 @@ class HomePage extends React.Component {
         <Advantages />
         <Introducing />
         <PortfolioHome />
-        <CallToAction />
+        <CallToAction bgcolor='#82b440'/>
         <FeaturesHome />
         <Intro />
         <Statistic />
         <Slider />
-        <Services />
+        <div className='services'>
+          <WhatWeDo />
+          <BestServices />
+        </div>
         <Partners />
         <Pricing />
         <VideoBusiness />
-        <CallToAction />
-        <Choose />
+        <CallToAction bgcolor='#82b440' />
+        <div className='chooseSkill'>
+          <ChooseContent />
+          <SkillsContent />
+        </div>
         <Slider />
         <OurBlog />
         <ContactFrom />
-        <CallToAction />
+        <CallToAction bgcolor='#82b440' />
         <Footer />
       </div>
     );

@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.css';
 
-import AppHeaderHome from '../../AppHeaderHome';
+import AppTitleHome from '../../AppTitleHome';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
@@ -12,7 +12,7 @@ class Pricing extends React.Component {
     return (
       <div className='pricing'>
         <div className='homeTitle'>
-          <AppHeaderHome
+          <AppTitleHome
             title='Pricing Tables'
             subTitle='Curabitur ac lacus arcu. Sed vehicula varius lectus auctor viverra.
             Nulla vehicula nibh vel ante commodo feugiat.'

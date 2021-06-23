@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'FuturaPT';
-  src: local("FuturaPT"), url(../../fonts/FuturaPT-Bold.woff) format("woff");
+  src: local('FuturaPT'), url(../../fonts/FuturaPT-Bold.woff) format('woff');
 }
 
 body {
@@ -21,29 +21,9 @@ body * {
   font-family: 'Open Sans';
 }
 
-.title {
-  font-size: 36px;
-  line-height: 30px;
-  font-weight: 300;
-  color: #333333;
+.chooseSkill {
+  display: flex;
 }
-
-.subTitle {
-  font-size: 18px;
-  line-height: 36px;
-  font-weight: 300;
-  color: #999999;
+.services {
+  display: flex;
 }
-
-.gradientLine {
-  width: 100px;
-  height: 1px;
-  background-color: #000000;
-  background-image: linear-gradient(90deg, #00f0ff -25%, #ebacfd 125%);
-  margin: 28px 0 15px;
-  display: inline-block;
-}
-
-
-
-

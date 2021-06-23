@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.css';
 
-import AppHeaderHome from '../../AppHeaderHome';
+import AppTitleHome from '../../AppTitleHome';
 
 import Table from './img/table.jpg';
 import Laptop from './img/laptop.jpg';
@@ -16,7 +16,7 @@ class OurBlog extends React.Component {
     return (
       <div className='ourBlog'>
         <div className='ourBlog_title'>
-          <AppHeaderHome
+          <AppTitleHome
             title='Lastest From Our Blog'
             subTitle='Curabitur ac lacus arcu. Sed vehicula varius lectus auctor viverra.
             Nulla vehicula nibh vel ante commodo feugiat.'

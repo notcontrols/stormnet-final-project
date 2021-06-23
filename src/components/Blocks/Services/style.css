@@ -1,28 +1,26 @@
-.services {
-  display: flex;
-  font-family: 'Open Sans';
-}
-.leftBlock {
+
+.services_what-we-do {
   padding: 100px 100px 111px 100px;
   background-color: #1f252f;
-  max-width: 565px;
+  width: 40%;
+  max-width: 775px;
 }
 
-.serviceHeader {
+.service_header {
   font-size: 36px;
   line-height: 30px;
   font-weight: 300;
   color: #ffffff;
 }
 
-.serviceSubHeader {
+.service_subheader {
   font-size: 18px;
   line-height: 36px;
   font-weight: 300;
   color: #b9b9b9;
 }
 
-.serviceText {
+.service_text {
   font-size: 14px;
   line-height: 30px;
   font-weight: 400;
@@ -30,20 +28,20 @@
   margin-bottom: 37px;
 }
 
-.serviceText ul {
+.service_text ul {
   margin-left: 0;
   padding-left: 0;
 }
-.serviceText li {
+.service_text li {
   list-style-type: none;
 }
 
-.serviceText svg {
+.service_text svg {
   margin-right: 10px;
 }
 
-.rightBlock {
-  width: 100%;
+.services_grid {
+  width: 60%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;

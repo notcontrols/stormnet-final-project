@@ -1,10 +1,12 @@
 import React from 'react';
 
+import BigTitle from '../BigTitle';
 import FeaturesHome from '../Blocks/FeaturesHome';
 import IntroducingDemos from '../Blocks/IntroducingDemos';
 import CallToAction from '../Blocks/CallToAction';
 import VideoBusiness from '../Blocks/VideoBusiness';
-import Choose from '../Blocks/WhyChooseUs';
+import ChooseContent from '../Blocks/WhyChooseUs/ChooseContent';
+import SkillsContent from '../Blocks/WhyChooseUs/SkillsContent';
 import Slider from '../Slider';
 import PartnersDemos from '../Blocks/PartnersDemos';
 import Footer from '../Footer';
@@ -16,18 +18,21 @@ class Demos extends React.Component {
     return (
       <div className='container'>
         <div className='demos_main-image'>
-          <div className='demos_title'>WE DO THE BEST DESIGN</div>
-          <div className='demos_subtitle'>
-            Dream Big. Think Different. Do Great
-          </div>
+          <BigTitle
+            title='WE DO THE BEST DESIGN'
+            subtitle='Dream Big. Think Different. Do Great'
+          />
         </div>
         <div className='demos_features'>
           <FeaturesHome />
         </div>
         <IntroducingDemos />
-        <CallToAction />
+        <CallToAction bgcolor='#35c2ea' />
         <VideoBusiness />
-        <Choose />
+        <div className='demos_choose-skills'>
+          <SkillsContent />
+          <ChooseContent />
+        </div>
         <Slider />
         <PartnersDemos />
         <Footer />

@@ -2,18 +2,17 @@ import React from 'react';
 
 import './style.css';
 
+import LaptopImage from './LaptopImage'
 import ButtonTake from '../../Buttons/Take-a-tour';
-import AppHeaderHome from '../../AppHeaderHome';
-
-import Laptop from './img/laptop.png';
+import AppTitleHome from '../../AppTitleHome';
 
 class Intro extends React.Component {
   render() {
     return (
       <div className='intro'>
-        <img className='introImage' src={Laptop} />
+        <LaptopImage />
         <div className='introContent'>
-          <AppHeaderHome
+          <AppTitleHome
             title='Great Theme for Your Business'
             subTitle='Curabitur ac lacus arcu. Sed vehicula varius lectus auctor viverra.
             Nulla vehicula nibh vel ante commodo feugiat.'

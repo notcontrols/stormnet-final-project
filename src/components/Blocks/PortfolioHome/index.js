@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.css';
 
-import AppHeaderHome from '../../AppHeaderHome';
+import AppTitleHome from '../../AppTitleHome';
 
 class PortfolioHome extends React.Component {
   render() {
@@ -10,7 +10,7 @@ class PortfolioHome extends React.Component {
       <>
         <div className='portfolio'>
           <div className='homeTitle'>
-            <AppHeaderHome
+            <AppTitleHome
               title='Selected Case Studies'
               subTitle='Curabitur ac lacus arcu. Sed vehicula varius lectus auctor
               viverra. Nulla vehicula nibh vel ante commodo feugiat.'

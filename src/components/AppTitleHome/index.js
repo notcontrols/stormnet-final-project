@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.css';
 
-class AppHeaderHome extends React.Component {
+class AppTitleHome extends React.Component {
   render() {
     return (
       <>
@@ -14,4 +14,4 @@ class AppHeaderHome extends React.Component {
   }
 }
 
-export default AppHeaderHome;
+export default AppTitleHome;

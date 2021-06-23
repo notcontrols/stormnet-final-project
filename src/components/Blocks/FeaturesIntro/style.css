@@ -1,0 +1,19 @@
+.intro_bgwhite {
+  background-color: #ffffff;
+}
+
+.introContent ul {
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #333333;
+}
+.introContent li {
+  list-style-type: none;
+}
+
+.introContent svg {
+  margin-right: 10px;
+}

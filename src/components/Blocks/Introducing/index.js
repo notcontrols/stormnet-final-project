@@ -3,14 +3,14 @@ import React from 'react';
 import './style.css';
 
 import ButtonTake from '../../Buttons/Take-a-tour';
-import AppHeaderHome from '../../AppHeaderHome';
+import AppTitleHome from '../../AppTitleHome';
 
 class Introducing extends React.Component {
   render() {
     return (
       <div className='introducing'>
         <div className='introducingContent'>
-          <AppHeaderHome
+          <AppTitleHome
             title='Great Theme for Your Business'
             subTitle='Curabitur ac lacus arcu. Sed vehicula varius lectus auctor viverra.
             Nulla vehicula nibh vel ante commodo feugiat.'

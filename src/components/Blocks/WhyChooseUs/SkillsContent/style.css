@@ -1,62 +1,7 @@
-.chooseSkill {
-  display: flex;
-}
-
-.choose_container {
-  width: 63%;
-  padding: 100px;
-}
-.skills_container {
-  width: 37%;
+.skills_content {
+  width: 40%;
   padding: 100px;
   background-color: #1f252f;
-}
-
-.choose_title {
-  padding: 0 15px;
-}
-.choose_row {
-  display: flex;
-  margin: 63px 0 0;
-}
-
-.wc_wrapper {
-  padding: 0 15px 60px;
-}
-
-.wc_img {
-  height: auto;
-  max-width: 100%;
-}
-
-.wc_heading {
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: 600;
-  color: #333333;
-}
-
-.wc_text {
-  font-size: 14px;
-  line-height: 30px;
-  font-weight: 400;
-  color: #575757;
-}
-
-.wc_more {
-  padding: 0 15px;
-}
-
-.wc_more svg {
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.wc_more a {
-  color: #4285f4;
-  font-size: 18px;
-  font-weight: 600;
-  text-decoration: none;
 }
 
 .skills_title {
@@ -144,7 +89,7 @@
 }
 
 .button_skills:before {
-  content: url(./img/button/meet.png);
+  content: url(../img/button/meet.png);
   display: inline-block;
   vertical-align: middle;
   line-height: 1;

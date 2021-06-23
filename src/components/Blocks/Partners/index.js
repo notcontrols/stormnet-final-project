@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.css';
 
-import AppHeaderHome from '../../AppHeaderHome';
+import AppTitleHome from '../../AppTitleHome';
 
 import Cubanese from './img/logos/cubanese.png';
 import Handcraft from './img/logos/handcraft.png';
@@ -18,7 +18,7 @@ class Partners extends React.Component {
     return (
       <div className='partners'>
         <div className='homeTitle'>
-          <AppHeaderHome
+          <AppTitleHome
             title='The Best Partners'
             subTitle='Curabitur ac lacus arcu. Sed vehicula varius lectus auctor viverra.
             Nulla vehicula nibh vel ante commodo feugiat.'
