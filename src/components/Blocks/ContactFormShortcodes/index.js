@@ -2,13 +2,17 @@ import React from 'react';
 
 import './style.css';
 
-class ContactFrom extends React.Component {
+class ContactFormShortcodes extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { name: '', email: '', phone: '', company: '', budget: '' };
-
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    this.state = {
+      name: '',
+      email: '',
+      phone: '',
+      company: '',
+      budget: '',
+      message: '',
+    };
   }
 
   handleChange = (event) => {
@@ -18,12 +22,13 @@ class ContactFrom extends React.Component {
       [event.target.phone]: event.target.value,
       [event.target.company]: event.target.value,
       [event.target.budget]: event.target.value,
+      [event.target.message]: event.target.value,
     });
   };
 
   handleSubmit = (event) => {
     // alert('A form was submitted: ' + this.state);
-    console.log(`A form was submitted: ${this.state}`);
+    console.log(this.state);
     fetch('https://test.com/api', {
       method: 'POST',
       // We convert the React state to JSON and send it as the POST body
@@ -43,9 +48,9 @@ class ContactFrom extends React.Component {
 
   render() {
     return (
-      <div className='contact_form' id='contact_form'>
-        <div className='contact_form-title'>
-          <div className='title'>Contact Us Today. Let‘s Work Together</div>
+      <div className='shortcodes_form-content'>
+        <div className='shortcodes_form-title'>
+          <div className='title'>Let‘s Work Together</div>
           <div className='gradientLine'></div>
           <div className='subTitle'>
             Whether you're a local or national business, big brand or high
@@ -53,13 +58,13 @@ class ContactFrom extends React.Component {
             you get where you want to be.
           </div>
         </div>
-        <div className='contact_form-wrapper'>
-          <form onSubmit={this.handleSubmit} className='home_form'>
+        <div className='shortcodes_form-wrapper'>
+          <form onSubmit={this.handleSubmit} className='shortcodes_form'>
             <input
               type='text'
               value={this.state.value}
               name='name'
-              className='home_form-control'
+              className='shortcodes_form-control'
               required
               placeholder='Name'
               onChange={this.handleChange}
@@ -69,7 +74,7 @@ class ContactFrom extends React.Component {
               type='email'
               value={this.state.value}
               name='email'
-              className='home_form-control'
+              className='shortcodes_form-control'
               required
               placeholder='Email'
               onChange={this.handleChange}
@@ -79,7 +84,7 @@ class ContactFrom extends React.Component {
               type='tel'
               value={this.state.value}
               name='phone'
-              className='home_form-control'
+              className='shortcodes_form-control'
               required
               placeholder='Phone'
               onChange={this.handleChange}
@@ -88,7 +93,7 @@ class ContactFrom extends React.Component {
               type='text'
               value={this.state.value}
               name='company'
-              className='home_form-control'
+              className='shortcodes_form-control'
               required
               placeholder='Company Name'
               onChange={this.handleChange}
@@ -96,7 +101,7 @@ class ContactFrom extends React.Component {
             <select
               name='budget'
               value={this.state.value}
-              className='home_form-control home_form-select'
+              className='shortcodes_form-control shortcodes_form-select'
               required
               onChange={this.handleChange}
             >
@@ -104,19 +109,25 @@ class ContactFrom extends React.Component {
               <option>100$</option>
               <option>200$</option>
             </select>
+            <textarea
+              name='message'
+              value={this.state.value}
+              cols='40'
+              rows='10'
+              className='shortcodes_form-control'
+              placeholder='Message'
+              onChange={this.handleChange}
+            ></textarea>
             <input
               type='submit'
-              value='GET STARTED NOW'
-              className='home_form-submit'
+              value='GET YOUR QUOTE'
+              className='shortcodes_form-submit'
             />
           </form>
-          <div className='prompt_form'>
-            <p>All field are required</p>
-          </div>
         </div>
       </div>
     );
   }
 }
 
-export default ContactFrom;
+export default ContactFormShortcodes;

@@ -1,32 +1,32 @@
-.shortcodes_form-content {
+.contact_form {
   margin: 0 auto;
   padding: 100px 0;
-  background-color: #ffffff;
+  background-color: #212121;
 }
 
-.shortcodes_form-title {
+.contact_form-title {
   text-align: center;
   margin: 0 auto 70px;
 }
 
-.shortcodes_form-title .title {
-  color: #333333;
+.contact_form-title .title {
+  color: #ffffff;
 }
 
-.shortcodes_form-wrapper {
+.contact_form-wrapper {
   margin: 0 auto;
   max-width: 500px;
 }
 
-.shortcodes_form {
+.home_form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.shortcodes_form-control {
+.home_form-control {
   margin: 0 0 20px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #444957;
   border-radius: 3px;
   font-size: 16px;
   font-weight: 300;
@@ -35,7 +35,7 @@
   background: rgba(255, 255, 255, 0.01);
   width: 100%;
 }
-.shortcodes_form-submit {
+.home_form-submit {
   font-size: 14px;
   font-weight: 700;
   color: #ffffff;
@@ -48,8 +48,15 @@
   transition: all 0.2s linear;
 }
 
-.shortcodes_form-submit:hover {
+.home_form-submit:hover {
   background: #81d742;
   border: 1px solid #60a032;
   color: #ffffff;
+}
+.prompt_form {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  color: #666666;
+  margin: 50px 0 0;
 }

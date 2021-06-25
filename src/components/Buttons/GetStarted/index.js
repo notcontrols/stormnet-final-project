@@ -3,7 +3,7 @@ import "./style.css";
 
 class GetStartedButton extends React.Component {
   render() {
-    return <a href='#' className="get-started">GET STARTED</a>;
+    return <a href='#contact_form' className="get-started">GET STARTED</a>;
   }
 }
 

@@ -49,7 +49,7 @@ class ChooseContent extends React.Component {
           </div>
         </div>
         <div class='wc_more'>
-          <a href='#' title='Thefox'>
+          <a href='/features' title='Thefox'>
             <FontAwesomeIcon icon={faStar} /> Learn more about us
           </a>
         </div>

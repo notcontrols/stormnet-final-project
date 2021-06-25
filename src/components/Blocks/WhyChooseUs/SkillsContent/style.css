@@ -1,21 +1,25 @@
 .skills_content {
   width: 40%;
   padding: 100px;
+}
+.skills_content-dark {
   background-color: #1f252f;
 }
 
-.skills_title {
+.skills_title-dark {
   color: #ffffff;
 }
-.skills_subTitle {
+.skills_subtitle-dark {
   color: #b9b9b9;
 }
 
+.skills_text-dark {
+  color: #cccccc;
+}
 .skills_text {
   font-size: 14px;
   line-height: 30px;
   font-weight: 400;
-  color: #cccccc;
 }
 
 .progress {
@@ -36,6 +40,8 @@
 }
 .progress_title {
   font-size: 18px;
+}
+.progress_title-dark {
   color: #ffffff;
 }
 .progress_bar {
@@ -66,11 +72,14 @@
 }
 
 .progress_bg {
-  background: #131313;
   position: relative;
   height: 10px;
   overflow: hidden;
   margin: 15px 0 0;
+}
+
+.progress_bg-dark {
+  background: #131313;
 }
 
 .button_skills {

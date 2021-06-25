@@ -3,7 +3,7 @@ import './style.css';
 
 class PurchaseNowButton extends React.Component {
   render() {
-    return <a href='#' className='button-transparent'>PURCHASE NOW</a>;
+    return <a href='/shop' className='button-transparent'>PURCHASE NOW</a>;
   }
 }
 

@@ -25,28 +25,28 @@ class Partners extends React.Component {
           />
         </div>
         <div class='gridContainerPartners'>
-          <div class='partner1'>
+          <div class='partner1 partner'>
             <img src={Cubanese} />
           </div>
-          <div class='partner2'>
+          <div class='partner2 partner'>
             <img src={Handcraft} />
           </div>
-          <div class='partner3'>
+          <div class='partner3 partner'>
             <img src={Premium} />
           </div>
-          <div class='partner4'>
+          <div class='partner4 partner'>
             <img src={Genuine} />
           </div>
-          <div class='partner5'>
+          <div class='partner5 partner'>
             <img src={Staton} />
           </div>
-          <div class='partner6'>
+          <div class='partner6 partner'>
             <img src={Southbeach} />
           </div>
-          <div class='partner7'>
+          <div class='partner7 partner'>
             <img src={Haus} />
           </div>
-          <div class='partner8'>
+          <div class='partner8 partner'>
             <img src={Newyork} />
           </div>
         </div>

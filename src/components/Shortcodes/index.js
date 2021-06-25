@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 
 import BigTitle from '../BigTitle';
-import ContactFrom from '../Blocks/ContactForm';
+import ContactFormShortcodes from '../Blocks/ContactFormShortcodes';
 import CallToAction from '../Blocks/CallToAction';
 import Footer from '../Footer';
 
@@ -14,7 +14,7 @@ class Shortcodes extends React.Component {
         <div className='shortcodes_main-image'>
           <BigTitle title='CONTACT US' subtitle='Dream Big. Think Different' />
         </div>
-        <ContactFrom />
+        <ContactFormShortcodes />
         <CallToAction bgcolor='#37ceff' />
         <Footer />
       </div>

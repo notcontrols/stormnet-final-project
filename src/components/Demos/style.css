@@ -21,26 +21,26 @@
   display: flex;
 }
 
-.skills_content {
+.skills_content-white  {
   background-color: #f6f7f8;
 }
 
-.skills_title {
+.skills_title-white {
   color: #333333;
 }
 
-.skills_subTitle {
+.skills_subtitle-white {
   color: #999999;
 }
 
-.skills_text {
+.skills_text-white {
   color: #575757;
 }
 
-.progress_title {
+.progress_title-white {
   color: #333333;
 }
 
-.progress_bg {
+.progress_bg-white {
   background: #ffffff;
 }

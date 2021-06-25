@@ -7,7 +7,7 @@ class Introducing extends React.Component {
     return (
       <div className='callToAction' style={{backgroundColor: this.props.bgcolor}}>
         Become A Part Of TheFox Business Community Today
-        <a className='buttonCallToAction' href='#'>
+        <a className='buttonCallToAction' href='/shop'>
           PURCHASE NOW
         </a>
       </div>

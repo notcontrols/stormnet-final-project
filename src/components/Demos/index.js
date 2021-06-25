@@ -30,7 +30,7 @@ class Demos extends React.Component {
         <CallToAction bgcolor='#35c2ea' />
         <VideoBusiness />
         <div className='demos_choose-skills'>
-          <SkillsContent />
+          <SkillsContent theme='white' />
           <ChooseContent />
         </div>
         <Slider />

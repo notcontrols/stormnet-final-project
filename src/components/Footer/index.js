@@ -69,19 +69,19 @@ class Footer extends React.Component {
           Contact the Envato Market Help Team.
         </div>
         <div className='social'>
-          <a href=''>
+          <a href='https://www.facebook.com'>
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
-          <a href=''>
+          <a href='https://www.linkedin.com'>
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
-          <a href=''>
+          <a href='https://www.twitter.com'>
             <FontAwesomeIcon icon={faTwitter} />
           </a>
-          <a href=''>
+          <a href='https://www.vimeo.com'>
             <FontAwesomeIcon icon={faVimeoV} />
           </a>
-          <a href=''>
+          <a href='https://www.pinterest.com'>
             <FontAwesomeIcon icon={faPinterestP} />
           </a>
         </div>

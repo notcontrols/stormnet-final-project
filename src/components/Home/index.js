@@ -45,11 +45,11 @@ class HomePage extends React.Component {
         <CallToAction bgcolor='#82b440' />
         <div className='chooseSkill'>
           <ChooseContent />
-          <SkillsContent />
+          <SkillsContent theme='dark'/>
         </div>
         <Slider />
         <OurBlog />
-        <ContactFrom />
+        <ContactFrom theme='dark' />
         <CallToAction bgcolor='#82b440' />
         <Footer />
       </div>

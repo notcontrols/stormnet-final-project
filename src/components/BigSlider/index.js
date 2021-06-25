@@ -1,9 +1,5 @@
 import React from 'react';
 
-import Analysis from './slides/agenda-analysis-business.jpg';
-import Hands_watch from './slides/hands_watch.jpg';
-import Volkswagen_car from './slides/volkswagen_car.jpg';
-
 import GetStartedButton from '../Buttons/GetStarted';
 import PurchaseNowButton from '../Buttons/PurchaseNow';
 
@@ -41,7 +37,7 @@ class BigSlider extends React.Component {
         </figure>
 
         <figure class='item'>
-          <h1 className='big_slider-header'>DREAM BIG. THINK DIFFERENT</h1>
+          <h1 className='big_slider-header'>DREAM BIG.</h1>
           <h2 className='big_slider-subheader'>
             Creating A Website Has Never Been This Easy
           </h2>
@@ -60,7 +56,7 @@ class BigSlider extends React.Component {
         </figure>
 
         <figure class='item'>
-          <h1 className='big_slider-header'>DREAM BIG. THINK DIFFERENT</h1>
+          <h1 className='big_slider-header'>THINK DIFFERENT.</h1>
           <h2 className='big_slider-subheader'>
             Creating A Website Has Never Been This Easy
           </h2>

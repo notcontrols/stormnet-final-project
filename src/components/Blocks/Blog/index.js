@@ -45,7 +45,7 @@ class OurBlog extends React.Component {
             </a>
             <div className='acticle_content'>
               <div className='article_title'>
-                <a href='#' title='CEO'>
+                <a href='#' title='Google'>
                   Google employee dies in an accident at the Cannes Lions
                   advertising festival
                 </a>
@@ -61,7 +61,7 @@ class OurBlog extends React.Component {
             </a>
             <div className='acticle_content'>
               <div className='article_title'>
-                <a href='#' title='CEO'>
+                <a href='#' title='Uber'>
                   How a tweet turned Uber's first hire into a billionaire
                 </a>
               </div>
