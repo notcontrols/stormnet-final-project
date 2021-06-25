@@ -5,6 +5,8 @@ import './style.css'
 import BigTitle from '../BigTitle';
 import Advantages from '../Blocks/Advantages';
 
+import Footer from '../Footer';
+
 class Shop extends React.Component {
   render() {
     return (
@@ -16,7 +18,7 @@ class Shop extends React.Component {
           />
         </div>
         <Advantages />
-        
+        <Footer />
       </div>
     );
   }

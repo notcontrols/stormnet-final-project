@@ -15,7 +15,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-right: 50px;
-  transition: all 0.2s linear;
+  transition: all linear 0.2s;
 }
 
 .card:last-child {
@@ -28,9 +28,9 @@
 }
 .card > h4 {
   margin: 40px 0 20px;
-      font-size: 18px;
-      font-weight: 600;
-      color: #333333;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
 }
 .card:hover .imageContainer {
   background: #4285f4;
@@ -45,5 +45,5 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  transition: all 0.2s linear;
+  transition: all linear 0.2s;
 }

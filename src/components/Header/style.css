@@ -31,5 +31,9 @@
   padding: 20px;
   color: #333333;
   text-decoration: none;
+  transition: color linear  0.2s;
 }
 
+.navigation > a:hover {
+  color: #4285f4;
+}
